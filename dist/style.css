@@ -1,0 +1,10 @@
+#header {
+    text-align: center;
+    font-size: 45px;
+    font-style: bold;
+    background-color: red;
+
+}
+.card-body {
+    background-color: lightblue;
+}

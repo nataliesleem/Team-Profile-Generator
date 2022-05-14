@@ -10,9 +10,9 @@ const generateHtml = data => {
     <p class="card-text">${data[i].getName()}</p>
   </div>
   <ul class="list-group list-group-flush">
-    <li class="list-group-item"><a href="mailto:${data[i].getEmail()}">${data[i].getEmail()}</a></li>
-    <li class="list-group-item">${data[i].getOffice()}</li>
-    <li class="list-group-item">${data[i].getId()}</li>
+    <li class="list-group-item">Email: <a href="mailto:${data[i].getEmail()}">${data[i].getEmail()}</a></li>
+    <li class="list-group-item">Office: ${data[i].getOffice()}</li>
+    <li class="list-group-item">ID: ${data[i].getId()}</li>
   </ul>
 </div>
             
@@ -26,9 +26,9 @@ const generateHtml = data => {
     <p class="card-text">${data[i].getName()}</p>
   </div>
   <ul class="list-group list-group-flush">
-    <li class="list-group-item"><a href="mailto:${data[i].getEmail()}">${data[i].getEmail()}</a></li>
-    <li class="list-group-item">${data[i].getSchool()}</li>
-    <li class="list-group-item">${data[i].getId()}</li>
+    <li class="list-group-item">Email: <a href="mailto:${data[i].getEmail()}">${data[i].getEmail()}</a></li>
+    <li class="list-group-item">School: ${data[i].getSchool()}</li>
+    <li class="list-group-item">ID: ${data[i].getId()}</li>
   </ul>
 </div>
             `;
@@ -41,9 +41,9 @@ const generateHtml = data => {
     <p class="card-text">${data[i].getName()}</p>
   </div>
   <ul class="list-group list-group-flush">
-    <li class="list-group-item"><a href="mailto:${data[i].getEmail()}">${data[i].getEmail()}</a></li>
-    <li class="list-group-item"><a href="https://github.com/${data[i].getGithub()}" target="_blank" rel="noopener noreferrer">${data[i].getGithub()}</li>
-    <li class="list-group-item">${data[i].getId()}</li>
+    <li class="list-group-item">Email: <a href="mailto:${data[i].getEmail()}">${data[i].getEmail()}</a></li>
+    <li class="list-group-item">Github: <a href="https://github.com/${data[i].getGithub()}" target="_blank" rel="noopener noreferrer">${data[i].getGithub()}</li>
+    <li class="list-group-item">ID: ${data[i].getId()}</li>
   </ul>
 </div>
             `;
