@@ -1,4 +1,4 @@
-const Engineer = require("../lib/Manager");
+const Engineer = require("../lib/Engineer");
 const Employee = require("../lib/Employee");
 
 test("Can set Github via constructor argument", () => {
